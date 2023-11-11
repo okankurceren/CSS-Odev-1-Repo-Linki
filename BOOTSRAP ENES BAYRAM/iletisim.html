@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container.fluied">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="anasayfa.html">
+                <img src="bootstrap-logo-shadow.png" width="50" height="40" class="d-inline-block align-top" alt="">
+                Bootstrap
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="anasayfa.html">Anasayfa </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Kurslarım
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">C#</a>
+                            <a class="dropdown-item" href="#">Java</a>
+                            <a class="dropdown-item" href="#">MSSQL</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Arama" aria-label="Arama">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Arama</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-3">
+        <h3 class="text-center">BAŞVURU FORMU</h3>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="isim">İsim Soyisim</label>
+                        <input type="text" class="form-control" id="isimInput" aria-describedby="isimHelp">
+                        <small id="isimHelp" class="form-text text-muted">Bu alan zorunludur.</small>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="email">Email Adresi</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="sehir">Yaşadığınız Şehir</label>
+                        <select class="form-control" id="sehir">
+                            <option value="0">------</option>
+                            <option value="1">Adana</option>
+                            <option value="2">Adıyaman</option>
+                            <option value="3">Afyonkarahisar</option>
+                            <option value="4">Ağrı</option>
+                            <option value="5">Amasya</option>
+                            <option value="6">Ankara</option>
+                            <option value="7">Antalya</option>
+                            <option value="8">Artvin</option>
+                            <option value="9">Aydın</option>
+                            <option value="10">Balıkesir</option>
+                            <option value="11">Bilecik</option>
+                            <option value="12">Bingöl</option>
+                            <option value="13">Bitlis</option>
+                            <option value="14">Bolu</option>
+                            <option value="15">Burdur</option>
+                            <option value="16">Bursa</option>
+                            <option value="17">Çanakkale</option>
+                            <option value="18">Çankırı</option>
+                            <option value="19">Çorum</option>
+                            <option value="20">Denizli</option>
+                            <option value="21">Diyarbakır</option>
+                            <option value="22">Edirne</option>
+                            <option value="23">Elazığ</option>
+                            <option value="24">Erzincan</option>
+                            <option value="25">Erzurum</option>
+                            <option value="26">Eskişehir</option>
+                            <option value="27">Gaziantep</option>
+                            <option value="28">Giresun</option>
+                            <option value="29">Gümüşhane</option>
+                            <option value="30">Hakkâri</option>
+                            <option value="31">Hatay</option>
+                            <option value="32">Isparta</option>
+                            <option value="33">Mersin</option>
+                            <option value="34">İstanbul</option>
+                            <option value="35">İzmir</option>
+                            <option value="36">Kars</option>
+                            <option value="37">Kastamonu</option>
+                            <option value="38">Kayseri</option>
+                            <option value="39">Kırklareli</option>
+                            <option value="40">Kırşehir</option>
+                            <option value="41">Kocaeli</option>
+                            <option value="42">Konya</option>
+                            <option value="43">Kütahya</option>
+                            <option value="44">Malatya</option>
+                            <option value="45">Manisa</option>
+                            <option value="46">Kahramanmaraş</option>
+                            <option value="47">Mardin</option>
+                            <option value="48">Muğla</option>
+                            <option value="49">Muş</option>
+                            <option value="50">Nevşehir</option>
+                            <option value="51">Niğde</option>
+                            <option value="52">Ordu</option>
+                            <option value="53">Rize</option>
+                            <option value="54">Sakarya</option>
+                            <option value="55">Samsun</option>
+                            <option value="56">Siirt</option>
+                            <option value="57">Sinop</option>
+                            <option value="58">Sivas</option>
+                            <option value="59">Tekirdağ</option>
+                            <option value="60">Tokat</option>
+                            <option value="61">Trabzon</option>
+                            <option value="62">Tunceli</option>
+                            <option value="63">Şanlıurfa</option>
+                            <option value="64">Uşak</option>
+                            <option value="65">Van</option>
+                            <option value="66">Yozgat</option>
+                            <option value="67">Zonguldak</option>
+                            <option value="68">Aksaray</option>
+                            <option value="69">Bayburt</option>
+                            <option value="70">Karaman</option>
+                            <option value="71">Kırıkkale</option>
+                            <option value="72">Batman</option>
+                            <option value="73">Şırnak</option>
+                            <option value="74">Bartın</option>
+                            <option value="75">Ardahan</option>
+                            <option value="76">Iğdır</option>
+                            <option value="77">Yalova</option>
+                            <option value="78">Karabük</option>
+                            <option value="79">Kilis</option>
+                            <option value="80">Osmaniye</option>
+                            <option value="81">Düzce</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        Cinsiyet
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Erkek
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios2">
+                                Kadın
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="vesikalık">Vesikalık Fotoğrafınızı Yükleyiniz</label>
+                            <input type="file" class="form-control-file" id="vesikalık">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            Oynayabildiğiniz Karakterleri Seçiniz
+            <br><br>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check1">
+                <label class="form-check-label" for="check1">
+                    Skye
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check2">
+                <label class="form-check-label" for="check2">
+                    Sage
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check3">
+                <label class="form-check-label" for="check3">
+                    Omen
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check4">
+                <label class="form-check-label" for="check4">
+                    Brimstone
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check5">
+                <label class="form-check-label" for="check5">
+                    Reyna
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check6">
+                <label class="form-check-label" for="check6">
+                    Raze
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check7">
+                <label class="form-check-label" for="check7">
+                    Sova
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check8">
+                <label class="form-check-label" for="check8">
+                    Killjoy
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check9">
+                <label class="form-check-label" for="check9">
+                    Viper
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check10">
+                <label class="form-check-label" for="check10">
+                    Yoru
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check11">
+                <label class="form-check-label" for="check11">
+                    Chamber
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check12">
+                <label class="form-check-label" for="check12">
+                    Cyper
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check13">
+                <label class="form-check-label" for="check13">
+                    KAY/O
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check14">
+                <label class="form-check-label" for="check14">
+                    Neon
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check15">
+                <label class="form-check-label" for="check15">
+                    Breach
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check16">
+                <label class="form-check-label" for="check16">
+                    Astra
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check17">
+                <label class="form-check-label" for="check17">
+                    Gekko
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check18">
+                <label class="form-check-label" for="check18">
+                    Phoenix
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check19">
+                <label class="form-check-label" for="check19">
+                    Jett
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check20">
+                <label class="form-check-label" for="check20">
+                    Fade
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check21">
+                <label class="form-check-label" for="check21">
+                    Harbor
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check22">
+                <label class="form-check-label" for="check22">
+                    Deadlock
+                </label>
+            </div>
+            <div class="row"><button type="submit" class="btn btn-success btn-block">Gönder</button></div>
+            <div class="row mt-1"><button type="reset" class="btn btn-danger btn-block">Temizle</button></div>
+
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
